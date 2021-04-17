@@ -60,21 +60,38 @@
 
 }
 
-#overlay1,
-#overlay2,
-#overlay3,
-#overlay4,
-#overlay5,
-#overlay6,
-#overlay7,
-#overlay8 {
+#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+  display: none;
   font-size: 30px;
   padding-top: 50%;
   top: 20px;
   left: 35px;
   width: 100%;
   height: 100%;
-  background-color:rgba(236, 235, 235, 0.456);
-  color: #0f0101;
+  background-color:rgba(250, 245, 245, 0.456);
+  color: rgb(15, 1, 1);
   position:absolute;
+  text-align: center;
+}
+.contact{
+  background-image: url('../assets/backgrounds/c_image.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin-top:50px;
+  text-align: center;
+  color:white;
+}
+form{
+  width:60%;
+  margin: auto;
+}
+#name, #email, #comment{
+  color: white;
+  background-color: transparent;
+}
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
 }
