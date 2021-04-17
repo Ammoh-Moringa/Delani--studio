@@ -7,14 +7,14 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#dev").click(function(){
-    $("#designimg").toggle();
-    $("#designdesc").toggle();
+    $("#devimg").toggle();
+    $("#development").toggle();
   });
 });
 
 $(document).ready(function(){
-  $("#design").click(function(){
-    $("#designimg").toggle();
-    $("#designdesc").toggle();
+  $("#management").click(function(){
+    $("#productimg").toggle();
+    $("#product").toggle();
   });
 });
