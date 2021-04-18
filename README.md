@@ -2,7 +2,7 @@
 ## Author
 AMOS KIPROTICH
 ## Description
-It is a web application that helps in generating the day of the week one is born and hence give Akan name according to the user's gender.
+Delani studio is a website for programmers that has an about us section, what to do, portfolio and even the contact section.
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
