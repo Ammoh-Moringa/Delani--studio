@@ -18,3 +18,19 @@ $(document).ready(function(){
     $("#product").toggle();
   });
 });
+
+
+$(document).ready(function(){
+  $("#work4").mouseover(function(){
+    $("#overlay1").show();
+  }).mouseout(function(){
+    $("#overlay1").hide();
+  });
+});
+$(document).ready(function(){
+  $("#work3").mouseover(function(){
+    $("#overlay2").show();
+  }).mouseout(function(){
+    $("#overlay2").hide();
+  });
+});
