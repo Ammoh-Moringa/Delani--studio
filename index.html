@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/jqueries.js"></script>
   <script src="js/scripts.js"></script>
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <title>Document</title>
 </head>
 
@@ -146,19 +147,24 @@
     </div>
     <div class="contact">
       <h3>CONTACT US</h3>
-      <form id="formsubmit">
-        <input type="hidden" name="u" value="">
-        <input type="hidden" name="id" value="">
-        <div class="form-group form-inline">
-          <input type="text" class="form-control" placeholder="Name...." name="name1" id="name1" size="25" value="">
-          <input type="email" class="form-control" placeholder="Email...." autocapitalize="off" autocorrect="off"
-            name="namw2" id="name2" size="25" value="">
-        </div>
+      </label>
 
-        <div class="form-group">
-          <textarea class="form-control" rows="8" id="comment" placeholder="Your message here please ....."></textarea>
+      <form class="container" id="formsubmit"
+        action="https://gmail.us1.list-manage.com/subscribe/post?u=9daa8b683f713185d89345d84&amp;id=4ef9cbfe49"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+        novalidate>
+
+        <div class="d-flex justify-content-between">
+          <input type="text" name="name1" class="form-control" placeholder="Name..." id="name1">
+          <input type="email" name="name2" class="form-control required email" placeholder="Email..." id="name2">
         </div>
-        <button type="submit" class="btn btn-success col-md-1">Submit</button>
+        <div>
+          <textarea id="comment" name="textarea" class="form-control" placeholder="Write your message here..." cols="30"
+            rows="10"></textarea>
+        </div>
+        <div id="button">
+          <input type="submit" id="submit" name="subscribe" class="btn btn-primary mb-3" value="submit">
+        </div>
       </form>
     </div>
     <footer>

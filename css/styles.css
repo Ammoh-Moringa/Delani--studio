@@ -103,6 +103,9 @@
   margin-left: 18%;
   margin-right: 30px;
 }
+#comment{
+  margin-top:0;
+}
 
 form{
   width:60%;
