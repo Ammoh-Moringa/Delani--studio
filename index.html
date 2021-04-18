@@ -146,18 +146,19 @@
     </div>
     <div class="contact">
       <h3>CONTACT US</h3>
-      <form>
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" id="name" placeholder="Name...">
-          </div>
-          <div class="col">
-            <input type="email" id="email" class="form-control" placeholder="Email...">
-          </div>
+      <form id="formsubmit">
+        <input type="hidden" name="u" value="">
+        <input type="hidden" name="id" value="">
+        <div class="form-group form-inline">
+          <input type="text" class="form-control" placeholder="Name...." name="name1" id="name1" size="25" value="">
+          <input type="email" class="form-control" placeholder="Email...." autocapitalize="off" autocorrect="off"
+            name="name2" id="name2" size="25" value="">
         </div>
+
         <div class="form-group">
-          <textarea class="form-control" rows="8" id="comment" placeholder="Your message here...."></textarea>
+          <textarea class="form-control" rows="8" id="comment" placeholder="Your message here please ....."></textarea>
         </div>
+        <button type="submit" class="btn btn-success col-md-1">Submit</button>
       </form>
     </div>
     <footer>
