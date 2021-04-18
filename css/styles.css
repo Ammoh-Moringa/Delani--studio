@@ -61,22 +61,26 @@
 
 }
 
+.col-md-3{
+  position: relative;
+}
+
 #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     display: none;
-    color:white;
+    color:red;
     width: 100%;
     height: 100%;
-    background-color:rgba(255, 255, 255, 0.425);
+    background-color:rgba(250, 245, 245, 0.456);
     position: absolute;
-    top: 20px;
-    left: 35px;
+    top: 0%;
+    left: 0%;
     font-weight: bold;
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Delius Swash Caps', cursive;
     padding:20px;
     border:10px solid white;
-    margin:17px;
+    text-align: center;
     
 }
 .contact{
